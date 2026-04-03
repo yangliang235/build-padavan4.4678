@@ -37,7 +37,7 @@ jobs:
       - name: 编译固件
         id: compile
         env:
-          DEVICE_MODELS: "CR660x RM2100"
+          DEVICE_MODELS: "NETGEAR-BZV"
         run: |
           cd /opt/rt-n56u/trunk
           success=true
